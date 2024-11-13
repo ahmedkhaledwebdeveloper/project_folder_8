@@ -1,0 +1,30 @@
+/*font links*/
+@font-face{
+	src: url(../fonts/open-sans/opensans-regular.ttf);
+	font-family: opensans-regular;
+}
+
+@font-face{
+	src: url(../fonts/open-sans/opensans-bold.ttf);
+	font-family: opensans-bold;
+}
+
+
+h1{
+	font-family: opensans-regular;
+    font-weight: 400;
+}
+
+h2{
+	font-family: opensans-bold;
+	font-weight: 700;
+
+}
+
+.box{
+	weight:calc(100% - 100px);
+	height:calc(100vh - 50px);
+	padding: 100px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
